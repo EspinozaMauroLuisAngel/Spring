@@ -1,0 +1,8 @@
+create database Usuario;
+use Usuario;
+
+create table te_usuarios ( 
+id bigint primary key auto_increment,
+nombre varchar(50) not null,
+contrasena varchar (50) not null
+);
